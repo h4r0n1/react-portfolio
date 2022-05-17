@@ -4,6 +4,7 @@ import { toast, ToastContainer } from "react-toastify";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useEffect, useState } from "react";
 import validator from "validator";
+import "react-toastify/dist/ReactToastify.css";
 
 export function Form() {
   const [state, handleSubmit] = useForm("mzboyywk");
@@ -38,6 +39,8 @@ export function Form() {
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
+            window.location.reload(false);
+            // return state;
           }}
         >
           Back to top
