@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Container } from "./header.styles";
-import { NavLink } from "react-router-dom";
+import CV from "../../Assets/Resume.pdf";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 
 export function Header() {
@@ -47,9 +47,9 @@ export function Header() {
           <NavHashLink smooth="true" to="#contacts" onClick={closeMenu}>
             Contacts
           </NavHashLink>
-          {/* <a href={Curriculo} download className="button">
+          <a href={CV} download className="button">
             CV
-          </a> */}
+          </a>
         </nav>
 
         <div

@@ -28,7 +28,7 @@ export function About() {
             work and commitment to quality.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation
+        {/* <ScrollAnimation
           animateIn="fadeInLeft"
           delay={0.4 * 1000}
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
@@ -39,15 +39,15 @@ export function About() {
             reprehenderit culpa iure magni autem harum itaque adipisci expedita
             modi atque delectus aliquid!
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        </ScrollAnimation> */}
+        {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
             commodi, sint a itaque accusamus, quidem asperiores suscipit aliquid
             debitis nisi neque vero recusandae perspiciatis. Eos, eveniet
             quibusdam. Voluptates, doloremque consectetur?
           </p>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
           <h3>Skills:</h3>
