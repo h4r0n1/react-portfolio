@@ -1,7 +1,7 @@
 import { Container } from "./contacts.styles";
 import emailIcon from "../../Assets/email-icon.svg";
 import phoneIcon from "../../Assets/phone-icon.svg";
-// import { Form } from "../Form/Form";
+import { Form } from "../Form/Form";
 
 export function Contacts() {
   return (
@@ -23,7 +23,7 @@ export function Contacts() {
           <a href="tel:+221782528384">(+221) 78 252 83 84</a>
         </div>
       </div>
-      {/* <Form /> */}
+      <Form />
     </Container>
   );
 }

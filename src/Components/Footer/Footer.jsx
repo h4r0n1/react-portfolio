@@ -1,5 +1,6 @@
 import { Container } from "./footer.styles";
-
+import { BrowserRouter as Router } from "react-router-dom";
+import { NavHashLink, HashLink } from "react-router-hash-link";
 import reactIcon from "../../Assets/react-icon.svg";
 import linkedinIcon from "../../Assets/linkedin.png";
 import githubIcon from "../../Assets/github.png";
@@ -7,10 +8,13 @@ import githubIcon from "../../Assets/github.png";
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="/" className="logo">
-        <span>T</span>
-        <span>arik</span>
-      </a>
+      <Router>
+        <HashLink smooth="true" to="#home" className="logo">
+          <span>T</span>
+          <span>arik</span>
+        </HashLink>
+      </Router>
+
       <div>
         <p>
           Made with <img src={reactIcon} alt="React" /> and a lot of
