@@ -49,7 +49,7 @@ export function About() {
           </p>
         </ScrollAnimation> */}
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <h3>Skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">

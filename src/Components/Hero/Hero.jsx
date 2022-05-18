@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Container } from "./hero.styles";
 import ScrollAnimation from "react-animate-on-scroll";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import Illustration from "../../Assets/illustration.svg";
 import { NavHashLink } from "react-router-hash-link";
 import "animate.css";

@@ -1,6 +1,9 @@
+import { uid } from "../../Utils/Uid";
+const id = uid();
+
 export const projects = [
   {
-    id: 1,
+    id: id,
     title: "Tayeur",
     description: "Order management system for tailors.",
     githubLink: "",
@@ -8,7 +11,7 @@ export const projects = [
     techno: ["React JS", "Ionic", "Django"],
   },
   {
-    id: 2,
+    id: id,
     title: "Bakeli Carrière",
     description:
       "Bakeli Carrière helps you find an internship during or at the end of your training.",
@@ -17,7 +20,7 @@ export const projects = [
     techno: ["React JS", "Bootstrap", "Laravel"],
   },
   {
-    id: 3,
+    id: id,
     title: "Bakeli-SI",
     description:
       "Bakeli School of Technology's information system created for a better management of students.",
@@ -26,12 +29,20 @@ export const projects = [
     techno: ["React JS", "Bootstrap", "Laravel"],
   },
   {
-    id: 4,
+    id: id,
     title: "Bakeli Store",
     description:
       "Bakeli Store is a digital library created by Bakeli School of Technology's students with applications templates.",
     githubLink: "",
     deployLink: "https://Store.bakeli.tech",
     techno: ["Wordpress"],
+  },
+  {
+    id: id,
+    title: "React-Portfolio",
+    description: "React version of my HTML & CSS Portfolio.",
+    githubLink: "https://github.com/h4r0n1/react-portfolio",
+    deployLink: "",
+    techno: ["React JS", "Syled-Components", "Vite"],
   },
 ];

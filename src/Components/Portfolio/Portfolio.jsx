@@ -12,7 +12,7 @@ export function Portfolio() {
       <div className="projects">
         {projects.map((project) => (
           <ScrollAnimation animateIn="flipInX">
-            {/* {console.log(project.description)} */}
+            {/* {console.log(project.id)} */}
             <div className="project" key={project.id}>
               <header>
                 <svg
