@@ -18,10 +18,10 @@ export function Contacts() {
           <img src={emailIcon} alt="Email" />
           <a href="mailto:mdl.diop97@gmail.com">mdl.diop97@gmail.com</a>
         </div>
-        <div>
+        {/* <div>
           <img src={phoneIcon} alt="Email" />
           <a href="tel:+221782528384">(+221) 78 252 83 84</a>
-        </div>
+        </div> */}
       </div>
       <Form />
     </Container>

@@ -45,7 +45,7 @@ export function Portfolio() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <img src={externalLinkIcon} alt="Visitar site" />
+                      <img src={externalLinkIcon} alt="Visit website" />
                     </a>
                   )}
                 </div>

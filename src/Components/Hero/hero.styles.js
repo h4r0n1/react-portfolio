@@ -39,9 +39,17 @@ export const Container = styled.section`
     display: block;
     margin-top: 15%;
     .hero-text {
-      h1 {
-        font-size: 5rem;
+      p:first-child {
+        font-size: 2rem;
       }
+
+      h1 {
+        font-size: 4rem;
+      }
+    }
+
+    .button {
+      text-align: center;
     }
 
     .hero-image {
