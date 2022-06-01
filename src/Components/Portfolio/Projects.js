@@ -45,7 +45,7 @@ export const projects = [
     id: id,
     title: "React-Portfolio",
     description: "React version of my HTML & CSS Portfolio.",
-    githubLink: "https://github.com/h4r0n1/react-portfolio",
+    githubLink: "",
     deployLink: "",
     techno: ["React JS", "Syled-Components", "Vite"],
   },
