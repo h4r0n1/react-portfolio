@@ -1,6 +1,7 @@
 import { Container } from "./contacts.styles";
 import emailIcon from "../../Assets/email-icon.svg";
 import phoneIcon from "../../Assets/phone-icon.svg";
+import { FaEnvelope } from "react-icons/fa";
 import { Form } from "../Form/Form";
 
 export function Contacts() {
@@ -15,7 +16,8 @@ export function Contacts() {
       </header>
       <div className="contacts">
         <div>
-          <img src={emailIcon} alt="Email" />
+          {/* <img src={emailIcon} alt="Email" /> */}
+          <FaEnvelope />
           <a href="mailto:mdl.diop97@gmail.com">mdl.diop97@gmail.com</a>
         </div>
         {/* <div>
