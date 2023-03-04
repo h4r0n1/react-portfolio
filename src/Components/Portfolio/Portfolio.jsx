@@ -1,7 +1,7 @@
-import { Container } from "./porfolio.styles";
-import githubIcon from "../../Assets/github-icon.svg";
-import externalLinkIcon from "../../Assets/external-link-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import externalLinkIcon from "../../Assets/external-link-icon.svg";
+import githubIcon from "../../Assets/github-icon.svg";
+import { Container } from "./porfolio.styles";
 import { projects } from "./Projects";
 
 export function Portfolio() {
@@ -11,7 +11,7 @@ export function Portfolio() {
       <h2>Portfolio</h2>
       <div className="projects">
         {projects.map((project) => (
-          <ScrollAnimation animateIn="flipInX">
+          <ScrollAnimation animateIn="flipInX" animateOnce>
             {/* {console.log(project.id)} */}
             <div className="project" key={project.id}>
               <header>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Container } from "./header.styles";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 import CV from "../../Assets/Resume.pdf";
-import { NavHashLink, HashLink } from "react-router-hash-link";
+import { Container } from "./header.styles";
 
 export function Header() {
   const [isactive, setactive] = useState(false);
@@ -20,8 +20,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth="true" to="#home" className="logo">
-          <span>T</span>
-          <span>arik</span>
+          <span>h4r0n1</span>
+          {/* <span>arik</span> */}
         </HashLink>
 
         <input

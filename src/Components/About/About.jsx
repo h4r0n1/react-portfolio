@@ -16,10 +16,10 @@ export function About() {
   return (
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce>
           <h2>About</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} animateOnce>
           <p>
             Enthusiastic student recently graduated from the Virtual University
             of Senegal in Linguistics and currently learning Web development
@@ -28,34 +28,38 @@ export function About() {
             work and commitment to quality.
           </p>
         </ScrollAnimation>
-        {/* <ScrollAnimation
-          animateIn="fadeInLeft"
-          delay={0.4 * 1000}
-          style={{ marginTop: "2rem", marginBottom: "2rem" }}
-        >
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            minima, velit quae ipsa consequuntur asperiores consequatur magnam
-            reprehenderit culpa iure magni autem harum itaque adipisci expedita
-            modi atque delectus aliquid!
-          </p>
-        </ScrollAnimation> */}
-        {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            commodi, sint a itaque accusamus, quidem asperiores suscipit aliquid
-            debitis nisi neque vero recusandae perspiciatis. Eos, eveniet
-            quibusdam. Voluptates, doloremque consectetur?
-          </p>
-        </ScrollAnimation> */}
 
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce>
           <h3>Skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-              <img src={reactIcon} alt="React" />
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.2 * 1000}
+              animateOnce
+            >
+              <img src={htmlIcon} alt="Html" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.3 * 1000}
+              animateOnce
+            >
+              <img src={cssIcon} alt="Css" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.4 * 1000}
+              animateOnce
+            >
+              <img src={bootstrapIcon} alt="Bootstrap" />
             </ScrollAnimation>
           </div>
 
@@ -66,49 +70,58 @@ export function About() {
           </div> */}
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.5 * 1000}
+              animateOnce
+            >
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-              <img src={laravelIcon} alt="JavaScript" />
-            </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
-              <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-              <img src={cssIcon} alt="Css" />
-            </ScrollAnimation>
-          </div>
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
-              <img src={bootstrapIcon} alt="Css" />
-            </ScrollAnimation>
-          </div>
-          {/* <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
-              <img src={nodeIcon} alt="Node" />
-            </ScrollAnimation>
-          </div> */}
-
-          {/* <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.6 * 1000}
+              animateOnce
+            >
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
-          </div> */}
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.7 * 1000}
+              animateOnce
+            >
+              <img src={reactIcon} alt="React" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.8 * 1000}
+              animateOnce
+            >
+              <img src={laravelIcon} alt="Laravel" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation
+              animateIn="fadeInUp"
+              delay={0.9 * 1000}
+              animateOnce
+            >
+              <img src={nodeIcon} alt="Node" />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000} animateOnce>
           <img src={profileImage} alt="Profile" />
         </ScrollAnimation>
       </div>

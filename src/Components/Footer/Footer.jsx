@@ -1,17 +1,16 @@
-import { Container } from "./footer.styles";
 import { BrowserRouter as Router } from "react-router-dom";
-import { NavHashLink, HashLink } from "react-router-hash-link";
-import reactIcon from "../../Assets/react-icon.svg";
-import linkedinIcon from "../../Assets/linkedin.png";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 import githubIcon from "../../Assets/github.png";
+import linkedinIcon from "../../Assets/linkedin.png";
+import reactIcon from "../../Assets/react-icon.svg";
+import { Container } from "./footer.styles";
 
 export function Footer() {
   return (
     <Container className="footer">
       <Router>
         <HashLink smooth="true" to="#home" className="logo">
-          <span>T</span>
-          <span>arik</span>
+          <span>h4r0n1</span>
         </HashLink>
       </Router>
 
